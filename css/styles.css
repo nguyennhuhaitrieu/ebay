@@ -115,6 +115,10 @@
   .bg_gray img  {
     width: 100%;
   }
+
+  #nav-section3 p {
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 480px) {
