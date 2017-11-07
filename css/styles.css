@@ -19,6 +19,7 @@
   top:0px;
 }
 
+
 @media screen and (max-width: 1200px) {
   .go_top {
     bottom: 310px;
@@ -34,9 +35,21 @@
 }
 
 @media screen and (max-width: 767px) {
+  .payment_image img {
+    width: 100% ;
+  }
+
   .card_inner {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #divCellPhone {
+    margin-top: 20px;
+  }
+
+  input, textarea {
+    padding: 10px;
   }
 
   .card_inner > div {
@@ -77,6 +90,26 @@
 
   #nav-section6, #nav-section7, #nav-section12 {
     height: 60px;
+  }
+
+  .card_info ul li .subject {
+    display: block;
+    width: 100%;
+  }
+
+  .card_info ul li .subject .icon {
+    color: #EF4E2F;
+    display: inline-block;
+    width: 10px;
+  }
+
+  .card_info ul li.special .vvcBox {
+    width: 100%;
+    float: left;
+  }
+
+  .margin_l190 {
+    margin-left: 0 !important;
   }
 }
 
