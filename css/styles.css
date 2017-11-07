@@ -111,6 +111,10 @@
   .margin_l190 {
     margin-left: 0 !important;
   }
+
+  .bg_gray img  {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
